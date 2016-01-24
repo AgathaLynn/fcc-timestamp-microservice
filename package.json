@@ -1,0 +1,17 @@
+{
+  "name": "fcc-timestamp-microservice",
+  "version": "1.0.0",
+  "description": "Eventually, my first 'real' website (a project that formats dates)",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.13.4",
+    "mongodb": "^2.1.4",
+    "npm": "^3.5.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "AgathaLynn",
+  "license": "ISC"
+}
