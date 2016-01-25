@@ -3,6 +3,10 @@ var exports = module.exports = {};
 
 exports.build_json = function(url_component) {
     
+    if (Number(url_component) == url_component) {
+        url_component = Number(url_component);
+    }
+    
     var date = new Date(url_component);
     var to_return = {};
     

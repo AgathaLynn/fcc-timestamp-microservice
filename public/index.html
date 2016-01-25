@@ -4,6 +4,15 @@
     
     <head>
         <title>AgathaLynn's Timestamp Microservice: A FreeCodeCamp API Project</title>
+        
+        <style>
+            span {
+                background-color: #eeeeee;
+            }
+            li {
+                padding: 2px;
+            }
+        </style>
     </head>
     
     <body>
@@ -11,7 +20,14 @@
             A Timestamp Microservice
         </h1>
         <div>
-            <p>Right now, this site doesn't do anything... but just you wait.  Pretty soon it will turn dates into - well, other dates.  The same date, actually.  But they'll look like different dates, for what that's worth... (probably not much).</p>
+            <p>A simple API project built while working through FreeCodeCamp's curriculum.  If you pass a date - either a unix timestamp or a natural-language date - as a parameter (in the url), the site will return both the unix and natural-language forms of the date.</p>
+            
+            <p> Here are a couple of examples:</p>
+            <ul>
+                <li>The url <span>http://fcc-timestamp-microservice-agathalynn.c9users.io/4/3/2015</span> returns <span>{"unix":1428019200000,"natural":"April 3, 2015"}</span>.</li>
+                <li> The url <span>http://fcc-timestamp-microservice-agathalynn.c9users.io/-15062875200000</span> returns <span>{"unix":-15062875200000,"natural":"September 4, 1492"}</span></li>
+                <li>The url <span>http://fcc-timestamp-microservice-agathalynn.c9users.io/tickle-me-elmo</span> returns <span>{"unix":null,"natural":null}</span></li>
+            </ul>
         </div>
     </body>
     
