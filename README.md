@@ -1,7 +1,13 @@
-So... I understand that this isn't really the purpose of a README, but for right now this is just going to be my notes to myself. 
-Doesn't matter much *where* I put that, at least not right now, but I should probably have it.  And now I've actually started the project...
+### FCC Timestamp Microservice
 
-Go me.  
+This project is my implementation of FreeCodeCamp's [Timestamp Microservice Challenge](http://www.freecodecamp.com/challenges/timestamp-microservice), made using Node.js. 
 
-...And, now I'm stuck again.  Next step, I think, it taking a side-trip to figure out Git. (Because I need to figure out how to get this and my github repository synced, and because I need to figure out how to use git.)  But that's tomorrow.
+The project should meet the following requirements: 
 
+> User Story: I can pass a string as a parameter, and it will check to see whether that string contains either a unix timestamp or a natural language date (example: January 1, 2016).
+
+> User Story: If it does, it returns both the Unix timestamp and the natural language form of that date.
+
+> User Story: If it does not contain a date or Unix timestamp, it returns null for those properties.
+
+This is currently still a work in progress, but it *is* progressing... if rather slowly.
