@@ -4,7 +4,7 @@ var exports = module.exports = {};
 exports.build_json = function(url_component) {
     
     if (Number(url_component) == url_component) {
-        url_component = Number(url_component);
+        url_component = Number(url_component) * 1000;
     }
     
     var date = new Date(url_component);
@@ -27,7 +27,7 @@ exports.build_json = function(url_component) {
         to_return.unix = null;
         to_return.natural = null;
     } else {
-        to_return.unix = Date.parse(date);
+        to_return.unix = Math.floor(Date.parse(date) / 1000);
         to_return.natural = formatDate(date);
     }
     
